@@ -1,10 +1,11 @@
 import { CONFIG } from "../config";
-import { GoogleGenAI } from "@google/genai";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const genAI = new GoogleGenAI(process.env.GEMINI_API_KEY || "");
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "");
 
 export async function generateBriefing(portName: string, weather: any) {
   try {
+    // Get the model (standard SDK uses getGenerativeModel)
     const model = genAI.getGenerativeModel({ model: CONFIG.GEMINI_MODEL || "gemini-1.5-flash" });
     
     const prompt = `Write a daily travel briefing for ${portName}, Alaska. 
@@ -16,7 +17,8 @@ export async function generateBriefing(portName: string, weather: any) {
     Keep it under 100 words.`;
 
     const result = await model.generateContent(prompt);
-    return result.response.text();
+    const response = await result.response;
+    return response.text();
   } catch (error) {
     console.error("AI Generation failed:", error);
     return "Enjoy your day in beautiful " + portName + "!";
