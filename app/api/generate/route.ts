@@ -82,7 +82,15 @@ export async function GET(request: NextRequest) {
       })
     );
 
-    console.log("✅ Daily Update Complete:", results);
+    // 4. Generate Homepage Data (Fixes the "Data not generated" screen)
+    const homepagePayload = {
+        lastUpdated: new Date().toISOString(),
+        status: "Active",
+        ports: results
+    };
+    // Note: Writing to a specific path the homepage component expects, usually public/data/homepage.json
+    await fs.writeJSON(path.join(process.cwd(), 'public/data/homepage.json'), homepagePayload);
+
     return NextResponse.json({ success: true, results });
 
   } catch (error: any) {
