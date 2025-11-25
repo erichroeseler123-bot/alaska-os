@@ -1,0 +1,172 @@
+[
+  {
+    "pk": 61,
+    "headline": "Seward Journey #61",
+    "short_description": "A curated tour experience in Seward, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Seward",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 62,
+    "headline": "Seward Journey #62",
+    "short_description": "A curated tour experience in Seward, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Seward",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 63,
+    "headline": "Seward Journey #63",
+    "short_description": "A curated tour experience in Seward, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Seward",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 64,
+    "headline": "Seward Journey #64",
+    "short_description": "A curated tour experience in Seward, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Seward",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 65,
+    "headline": "Seward Journey #65",
+    "short_description": "A curated tour experience in Seward, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Seward",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 66,
+    "headline": "Seward Journey #66",
+    "short_description": "A curated tour experience in Seward, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Seward",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 67,
+    "headline": "Seward Journey #67",
+    "short_description": "A curated tour experience in Seward, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Seward",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 68,
+    "headline": "Seward Journey #68",
+    "short_description": "A curated tour experience in Seward, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Seward",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 69,
+    "headline": "Seward Journey #69",
+    "short_description": "A curated tour experience in Seward, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Seward",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 70,
+    "headline": "Seward Journey #70",
+    "short_description": "A curated tour experience in Seward, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Seward",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  }
+]

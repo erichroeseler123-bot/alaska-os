@@ -1,0 +1,179 @@
+[
+  {
+    "pk": 1,
+    "headline": "Mendenhall Glacier Ice Adventure",
+    "short_description": "Explore the legendary Mendenhall Glacier with expert guides and experience ice caves, crevasses, and unreal blue formations.",
+    "price_range": "$199 - $349",
+    "duration_minutes": 180,
+    "locations": [
+      {
+        "city": "Juneau",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "glacier",
+      "hiking"
+    ]
+  },
+  {
+    "pk": 2,
+    "headline": "Juneau Whale Watching Quest",
+    "short_description": "Cruise through Auke Bay in search of humpback and orca whales with guaranteed sightings.",
+    "price_range": "$149 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Juneau",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "wildlife",
+      "cruise",
+      "family"
+    ]
+  },
+  {
+    "pk": 3,
+    "headline": "Mount Roberts Tram & Nature Walk",
+    "short_description": "Ride the iconic tramway for stunning views and enjoy a peaceful alpine nature hike.",
+    "price_range": "$45 - $99",
+    "duration_minutes": 90,
+    "locations": [
+      {
+        "city": "Juneau",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "scenic",
+      "easy",
+      "family"
+    ]
+  },
+  {
+    "pk": 4,
+    "headline": "Juneau Dog Sledding Helicopter Excursion",
+    "short_description": "Fly over breathtaking glaciers and land on a snowfield to meet real racing sled dogs.",
+    "price_range": "$499 - $649",
+    "duration_minutes": 120,
+    "locations": [
+      {
+        "city": "Juneau",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "helicopter",
+      "dogs"
+    ]
+  },
+  {
+    "pk": 5,
+    "headline": "Mendenhall Lake Kayak Expedition",
+    "short_description": "Paddle across a glacier-fed lake for close-up views of icebergs and dramatic mountain walls.",
+    "price_range": "$129 - $189",
+    "duration_minutes": 180,
+    "locations": [
+      {
+        "city": "Juneau",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "kayak",
+      "adventure",
+      "glacier"
+    ]
+  },
+  {
+    "pk": 6,
+    "headline": "Juneau Food & Craft Beer Walking Tour",
+    "short_description": "Taste Alaska’s best seafood, local brews, and handmade chocolates on a relaxed walking tour.",
+    "price_range": "$99 - $129",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Juneau",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "food",
+      "beer",
+      "culture"
+    ]
+  },
+  {
+    "pk": 7,
+    "headline": "Inside Passage Scenic Flight",
+    "short_description": "Take an unforgettable small-plane flight over fjords, glaciers, and unspoiled wilderness.",
+    "price_range": "$299 - $399",
+    "duration_minutes": 75,
+    "locations": [
+      {
+        "city": "Juneau",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "flightseeing",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 8,
+    "headline": "Juneau Salmon Fishing Charter",
+    "short_description": "Join a professional captain for a salmon fishing trip through rich coastal waters.",
+    "price_range": "$179 - $299",
+    "duration_minutes": 240,
+    "locations": [
+      {
+        "city": "Juneau",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "fishing",
+      "family"
+    ]
+  },
+  {
+    "pk": 9,
+    "headline": "Gold Creek Salmon Bake Experience",
+    "short_description": "Enjoy all-you-can-eat wild Alaska salmon in a stunning rainforest setting with live music.",
+    "price_range": "$59 - $79",
+    "duration_minutes": 120,
+    "locations": [
+      {
+        "city": "Juneau",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "food",
+      "family"
+    ]
+  },
+  {
+    "pk": 10,
+    "headline": "Historic Juneau Mining Adventure",
+    "short_description": "Pan for gold, explore authentic mining ruins, and learn the history of Alaska’s gold rush.",
+    "price_range": "$79 - $129",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Juneau",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "history",
+      "family",
+      "culture"
+    ]
+  }
+]

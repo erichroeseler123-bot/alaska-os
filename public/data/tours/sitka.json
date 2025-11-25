@@ -1,0 +1,172 @@
+[
+  {
+    "pk": 31,
+    "headline": "Sitka Exploration #31",
+    "short_description": "A curated tour experience in Sitka, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Sitka",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 32,
+    "headline": "Sitka Exploration #32",
+    "short_description": "A curated tour experience in Sitka, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Sitka",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 33,
+    "headline": "Sitka Exploration #33",
+    "short_description": "A curated tour experience in Sitka, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Sitka",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 34,
+    "headline": "Sitka Exploration #34",
+    "short_description": "A curated tour experience in Sitka, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Sitka",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 35,
+    "headline": "Sitka Exploration #35",
+    "short_description": "A curated tour experience in Sitka, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Sitka",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 36,
+    "headline": "Sitka Exploration #36",
+    "short_description": "A curated tour experience in Sitka, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Sitka",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 37,
+    "headline": "Sitka Exploration #37",
+    "short_description": "A curated tour experience in Sitka, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Sitka",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 38,
+    "headline": "Sitka Exploration #38",
+    "short_description": "A curated tour experience in Sitka, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Sitka",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 39,
+    "headline": "Sitka Exploration #39",
+    "short_description": "A curated tour experience in Sitka, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Sitka",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 40,
+    "headline": "Sitka Exploration #40",
+    "short_description": "A curated tour experience in Sitka, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Sitka",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  }
+]

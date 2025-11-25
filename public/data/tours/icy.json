@@ -1,0 +1,172 @@
+[
+  {
+    "pk": 41,
+    "headline": "Icy Strait Expedition #41",
+    "short_description": "A curated tour experience in Icy Strait Point, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Icy Strait Point",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 42,
+    "headline": "Icy Strait Expedition #42",
+    "short_description": "A curated tour experience in Icy Strait Point, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Icy Strait Point",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 43,
+    "headline": "Icy Strait Expedition #43",
+    "short_description": "A curated tour experience in Icy Strait Point, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Icy Strait Point",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 44,
+    "headline": "Icy Strait Expedition #44",
+    "short_description": "A curated tour experience in Icy Strait Point, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Icy Strait Point",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 45,
+    "headline": "Icy Strait Expedition #45",
+    "short_description": "A curated tour experience in Icy Strait Point, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Icy Strait Point",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 46,
+    "headline": "Icy Strait Expedition #46",
+    "short_description": "A curated tour experience in Icy Strait Point, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Icy Strait Point",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 47,
+    "headline": "Icy Strait Expedition #47",
+    "short_description": "A curated tour experience in Icy Strait Point, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Icy Strait Point",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 48,
+    "headline": "Icy Strait Expedition #48",
+    "short_description": "A curated tour experience in Icy Strait Point, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Icy Strait Point",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 49,
+    "headline": "Icy Strait Expedition #49",
+    "short_description": "A curated tour experience in Icy Strait Point, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Icy Strait Point",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 50,
+    "headline": "Icy Strait Expedition #50",
+    "short_description": "A curated tour experience in Icy Strait Point, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Icy Strait Point",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  }
+]

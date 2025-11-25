@@ -1,0 +1,172 @@
+[
+  {
+    "pk": 51,
+    "headline": "Haines Discovery #51",
+    "short_description": "A curated tour experience in Haines, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Haines",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 52,
+    "headline": "Haines Discovery #52",
+    "short_description": "A curated tour experience in Haines, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Haines",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 53,
+    "headline": "Haines Discovery #53",
+    "short_description": "A curated tour experience in Haines, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Haines",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 54,
+    "headline": "Haines Discovery #54",
+    "short_description": "A curated tour experience in Haines, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Haines",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 55,
+    "headline": "Haines Discovery #55",
+    "short_description": "A curated tour experience in Haines, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Haines",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 56,
+    "headline": "Haines Discovery #56",
+    "short_description": "A curated tour experience in Haines, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Haines",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 57,
+    "headline": "Haines Discovery #57",
+    "short_description": "A curated tour experience in Haines, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Haines",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 58,
+    "headline": "Haines Discovery #58",
+    "short_description": "A curated tour experience in Haines, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Haines",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 59,
+    "headline": "Haines Discovery #59",
+    "short_description": "A curated tour experience in Haines, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Haines",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 60,
+    "headline": "Haines Discovery #60",
+    "short_description": "A curated tour experience in Haines, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Haines",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  }
+]

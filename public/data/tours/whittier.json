@@ -1,0 +1,172 @@
+[
+  {
+    "pk": 71,
+    "headline": "Whittier Exploration #71",
+    "short_description": "A curated tour experience in Whittier, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Whittier",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 72,
+    "headline": "Whittier Exploration #72",
+    "short_description": "A curated tour experience in Whittier, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Whittier",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 73,
+    "headline": "Whittier Exploration #73",
+    "short_description": "A curated tour experience in Whittier, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Whittier",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 74,
+    "headline": "Whittier Exploration #74",
+    "short_description": "A curated tour experience in Whittier, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Whittier",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 75,
+    "headline": "Whittier Exploration #75",
+    "short_description": "A curated tour experience in Whittier, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Whittier",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 76,
+    "headline": "Whittier Exploration #76",
+    "short_description": "A curated tour experience in Whittier, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Whittier",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 77,
+    "headline": "Whittier Exploration #77",
+    "short_description": "A curated tour experience in Whittier, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Whittier",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 78,
+    "headline": "Whittier Exploration #78",
+    "short_description": "A curated tour experience in Whittier, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Whittier",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 79,
+    "headline": "Whittier Exploration #79",
+    "short_description": "A curated tour experience in Whittier, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Whittier",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  },
+  {
+    "pk": 80,
+    "headline": "Whittier Exploration #80",
+    "short_description": "A curated tour experience in Whittier, showcasing the best of local culture, nature, and adventure.",
+    "price_range": "$99 - $199",
+    "duration_minutes": 150,
+    "locations": [
+      {
+        "city": "Whittier",
+        "state": "AK"
+      }
+    ],
+    "categories": [
+      "adventure",
+      "scenic"
+    ]
+  }
+]

@@ -1,0 +1,1373 @@
+{
+  "commentary": "Combined final file with all entries.",
+  "last_generated_at": "2025-11-25T07:00:00Z",
+  "items": [
+    {
+      "pk": 1,
+      "headline": "Mendenhall Glacier Ice Adventure",
+      "short_description": "Explore the legendary Mendenhall Glacier with expert guides and experience ice caves, crevasses, and unreal blue formations.",
+      "price_range": "$199 - $349",
+      "duration_minutes": 180,
+      "locations": [
+        {
+          "city": "Juneau",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "glacier",
+        "hiking"
+      ]
+    },
+    {
+      "pk": 2,
+      "headline": "Juneau Whale Watching Quest",
+      "short_description": "Cruise through Auke Bay in search of humpback and orca whales with guaranteed sightings.",
+      "price_range": "$149 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Juneau",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "wildlife",
+        "cruise",
+        "family"
+      ]
+    },
+    {
+      "pk": 3,
+      "headline": "Mount Roberts Tram & Nature Walk",
+      "short_description": "Ride the iconic tramway for stunning views and enjoy a peaceful alpine nature hike.",
+      "price_range": "$45 - $99",
+      "duration_minutes": 90,
+      "locations": [
+        {
+          "city": "Juneau",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "scenic",
+        "easy",
+        "family"
+      ]
+    },
+    {
+      "pk": 4,
+      "headline": "Juneau Dog Sledding Helicopter Excursion",
+      "short_description": "Fly over breathtaking glaciers and land on a snowfield to meet real racing sled dogs.",
+      "price_range": "$499 - $649",
+      "duration_minutes": 120,
+      "locations": [
+        {
+          "city": "Juneau",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "helicopter",
+        "dogs"
+      ]
+    },
+    {
+      "pk": 5,
+      "headline": "Mendenhall Lake Kayak Expedition",
+      "short_description": "Paddle across a glacier-fed lake for close-up views of icebergs and dramatic mountain walls.",
+      "price_range": "$129 - $189",
+      "duration_minutes": 180,
+      "locations": [
+        {
+          "city": "Juneau",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "kayak",
+        "adventure",
+        "glacier"
+      ]
+    },
+    {
+      "pk": 6,
+      "headline": "Juneau Food & Craft Beer Walking Tour",
+      "short_description": "Taste Alaska\u2019s best seafood, local brews, and handmade chocolates on a relaxed walking tour.",
+      "price_range": "$99 - $129",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Juneau",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "food",
+        "beer",
+        "culture"
+      ]
+    },
+    {
+      "pk": 7,
+      "headline": "Inside Passage Scenic Flight",
+      "short_description": "Take an unforgettable small-plane flight over fjords, glaciers, and unspoiled wilderness.",
+      "price_range": "$299 - $399",
+      "duration_minutes": 75,
+      "locations": [
+        {
+          "city": "Juneau",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "flightseeing",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 8,
+      "headline": "Juneau Salmon Fishing Charter",
+      "short_description": "Join a professional captain for a salmon fishing trip through rich coastal waters.",
+      "price_range": "$179 - $299",
+      "duration_minutes": 240,
+      "locations": [
+        {
+          "city": "Juneau",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "fishing",
+        "family"
+      ]
+    },
+    {
+      "pk": 9,
+      "headline": "Gold Creek Salmon Bake Experience",
+      "short_description": "Enjoy all-you-can-eat wild Alaska salmon in a stunning rainforest setting with live music.",
+      "price_range": "$59 - $79",
+      "duration_minutes": 120,
+      "locations": [
+        {
+          "city": "Juneau",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "food",
+        "family"
+      ]
+    },
+    {
+      "pk": 10,
+      "headline": "Historic Juneau Mining Adventure",
+      "short_description": "Pan for gold, explore authentic mining ruins, and learn the history of Alaska\u2019s gold rush.",
+      "price_range": "$79 - $129",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Juneau",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "history",
+        "family",
+        "culture"
+      ]
+    },
+    {
+      "pk": 11,
+      "headline": "Skagway Adventure #11",
+      "short_description": "A curated tour experience in Skagway, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Skagway",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 12,
+      "headline": "Skagway Adventure #12",
+      "short_description": "A curated tour experience in Skagway, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Skagway",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 13,
+      "headline": "Skagway Adventure #13",
+      "short_description": "A curated tour experience in Skagway, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Skagway",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 14,
+      "headline": "Skagway Adventure #14",
+      "short_description": "A curated tour experience in Skagway, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Skagway",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 15,
+      "headline": "Skagway Adventure #15",
+      "short_description": "A curated tour experience in Skagway, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Skagway",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 16,
+      "headline": "Skagway Adventure #16",
+      "short_description": "A curated tour experience in Skagway, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Skagway",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 17,
+      "headline": "Skagway Adventure #17",
+      "short_description": "A curated tour experience in Skagway, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Skagway",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 18,
+      "headline": "Skagway Adventure #18",
+      "short_description": "A curated tour experience in Skagway, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Skagway",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 19,
+      "headline": "Skagway Adventure #19",
+      "short_description": "A curated tour experience in Skagway, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Skagway",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 20,
+      "headline": "Skagway Adventure #20",
+      "short_description": "A curated tour experience in Skagway, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Skagway",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 21,
+      "headline": "Ketchikan Experience #21",
+      "short_description": "A curated tour experience in Ketchikan, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Ketchikan",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 22,
+      "headline": "Ketchikan Experience #22",
+      "short_description": "A curated tour experience in Ketchikan, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Ketchikan",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 23,
+      "headline": "Ketchikan Experience #23",
+      "short_description": "A curated tour experience in Ketchikan, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Ketchikan",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 24,
+      "headline": "Ketchikan Experience #24",
+      "short_description": "A curated tour experience in Ketchikan, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Ketchikan",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 25,
+      "headline": "Ketchikan Experience #25",
+      "short_description": "A curated tour experience in Ketchikan, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Ketchikan",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 26,
+      "headline": "Ketchikan Experience #26",
+      "short_description": "A curated tour experience in Ketchikan, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Ketchikan",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 27,
+      "headline": "Ketchikan Experience #27",
+      "short_description": "A curated tour experience in Ketchikan, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Ketchikan",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 28,
+      "headline": "Ketchikan Experience #28",
+      "short_description": "A curated tour experience in Ketchikan, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Ketchikan",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 29,
+      "headline": "Ketchikan Experience #29",
+      "short_description": "A curated tour experience in Ketchikan, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Ketchikan",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 30,
+      "headline": "Ketchikan Experience #30",
+      "short_description": "A curated tour experience in Ketchikan, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Ketchikan",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 31,
+      "headline": "Sitka Exploration #31",
+      "short_description": "A curated tour experience in Sitka, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Sitka",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 32,
+      "headline": "Sitka Exploration #32",
+      "short_description": "A curated tour experience in Sitka, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Sitka",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 33,
+      "headline": "Sitka Exploration #33",
+      "short_description": "A curated tour experience in Sitka, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Sitka",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 34,
+      "headline": "Sitka Exploration #34",
+      "short_description": "A curated tour experience in Sitka, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Sitka",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 35,
+      "headline": "Sitka Exploration #35",
+      "short_description": "A curated tour experience in Sitka, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Sitka",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 36,
+      "headline": "Sitka Exploration #36",
+      "short_description": "A curated tour experience in Sitka, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Sitka",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 37,
+      "headline": "Sitka Exploration #37",
+      "short_description": "A curated tour experience in Sitka, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Sitka",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 38,
+      "headline": "Sitka Exploration #38",
+      "short_description": "A curated tour experience in Sitka, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Sitka",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 39,
+      "headline": "Sitka Exploration #39",
+      "short_description": "A curated tour experience in Sitka, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Sitka",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 40,
+      "headline": "Sitka Exploration #40",
+      "short_description": "A curated tour experience in Sitka, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Sitka",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 41,
+      "headline": "Icy Strait Expedition #41",
+      "short_description": "A curated tour experience in Icy Strait Point, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Icy Strait Point",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 42,
+      "headline": "Icy Strait Expedition #42",
+      "short_description": "A curated tour experience in Icy Strait Point, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Icy Strait Point",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 43,
+      "headline": "Icy Strait Expedition #43",
+      "short_description": "A curated tour experience in Icy Strait Point, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Icy Strait Point",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 44,
+      "headline": "Icy Strait Expedition #44",
+      "short_description": "A curated tour experience in Icy Strait Point, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Icy Strait Point",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 45,
+      "headline": "Icy Strait Expedition #45",
+      "short_description": "A curated tour experience in Icy Strait Point, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Icy Strait Point",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 46,
+      "headline": "Icy Strait Expedition #46",
+      "short_description": "A curated tour experience in Icy Strait Point, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Icy Strait Point",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 47,
+      "headline": "Icy Strait Expedition #47",
+      "short_description": "A curated tour experience in Icy Strait Point, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Icy Strait Point",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 48,
+      "headline": "Icy Strait Expedition #48",
+      "short_description": "A curated tour experience in Icy Strait Point, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Icy Strait Point",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 49,
+      "headline": "Icy Strait Expedition #49",
+      "short_description": "A curated tour experience in Icy Strait Point, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Icy Strait Point",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 50,
+      "headline": "Icy Strait Expedition #50",
+      "short_description": "A curated tour experience in Icy Strait Point, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Icy Strait Point",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 51,
+      "headline": "Haines Discovery #51",
+      "short_description": "A curated tour experience in Haines, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Haines",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 52,
+      "headline": "Haines Discovery #52",
+      "short_description": "A curated tour experience in Haines, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Haines",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 53,
+      "headline": "Haines Discovery #53",
+      "short_description": "A curated tour experience in Haines, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Haines",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 54,
+      "headline": "Haines Discovery #54",
+      "short_description": "A curated tour experience in Haines, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Haines",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 55,
+      "headline": "Haines Discovery #55",
+      "short_description": "A curated tour experience in Haines, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Haines",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 56,
+      "headline": "Haines Discovery #56",
+      "short_description": "A curated tour experience in Haines, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Haines",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 57,
+      "headline": "Haines Discovery #57",
+      "short_description": "A curated tour experience in Haines, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Haines",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 58,
+      "headline": "Haines Discovery #58",
+      "short_description": "A curated tour experience in Haines, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Haines",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 59,
+      "headline": "Haines Discovery #59",
+      "short_description": "A curated tour experience in Haines, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Haines",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 60,
+      "headline": "Haines Discovery #60",
+      "short_description": "A curated tour experience in Haines, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Haines",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 61,
+      "headline": "Seward Journey #61",
+      "short_description": "A curated tour experience in Seward, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Seward",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 62,
+      "headline": "Seward Journey #62",
+      "short_description": "A curated tour experience in Seward, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Seward",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 63,
+      "headline": "Seward Journey #63",
+      "short_description": "A curated tour experience in Seward, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Seward",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 64,
+      "headline": "Seward Journey #64",
+      "short_description": "A curated tour experience in Seward, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Seward",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 65,
+      "headline": "Seward Journey #65",
+      "short_description": "A curated tour experience in Seward, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Seward",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 66,
+      "headline": "Seward Journey #66",
+      "short_description": "A curated tour experience in Seward, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Seward",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 67,
+      "headline": "Seward Journey #67",
+      "short_description": "A curated tour experience in Seward, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Seward",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 68,
+      "headline": "Seward Journey #68",
+      "short_description": "A curated tour experience in Seward, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Seward",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 69,
+      "headline": "Seward Journey #69",
+      "short_description": "A curated tour experience in Seward, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Seward",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 70,
+      "headline": "Seward Journey #70",
+      "short_description": "A curated tour experience in Seward, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Seward",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 71,
+      "headline": "Whittier Exploration #71",
+      "short_description": "A curated tour experience in Whittier, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Whittier",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 72,
+      "headline": "Whittier Exploration #72",
+      "short_description": "A curated tour experience in Whittier, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Whittier",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 73,
+      "headline": "Whittier Exploration #73",
+      "short_description": "A curated tour experience in Whittier, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Whittier",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 74,
+      "headline": "Whittier Exploration #74",
+      "short_description": "A curated tour experience in Whittier, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Whittier",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 75,
+      "headline": "Whittier Exploration #75",
+      "short_description": "A curated tour experience in Whittier, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Whittier",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 76,
+      "headline": "Whittier Exploration #76",
+      "short_description": "A curated tour experience in Whittier, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Whittier",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 77,
+      "headline": "Whittier Exploration #77",
+      "short_description": "A curated tour experience in Whittier, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Whittier",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 78,
+      "headline": "Whittier Exploration #78",
+      "short_description": "A curated tour experience in Whittier, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Whittier",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 79,
+      "headline": "Whittier Exploration #79",
+      "short_description": "A curated tour experience in Whittier, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Whittier",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    },
+    {
+      "pk": 80,
+      "headline": "Whittier Exploration #80",
+      "short_description": "A curated tour experience in Whittier, showcasing the best of local culture, nature, and adventure.",
+      "price_range": "$99 - $199",
+      "duration_minutes": 150,
+      "locations": [
+        {
+          "city": "Whittier",
+          "state": "AK"
+        }
+      ],
+      "categories": [
+        "adventure",
+        "scenic"
+      ]
+    }
+  ]
+}
