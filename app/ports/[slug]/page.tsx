@@ -1,7 +1,7 @@
-import { notFound } from "next/navigation";
 import fs from "fs-extra";
 import path from "path";
 import Link from "next/link";
+import BookButton from "../../components/BookButton";
 
 interface Tour {
   pk: number;
@@ -61,7 +61,8 @@ export default async function PortPage({ params }: { params: Promise<{ slug: str
               </div>
               <div className="p-4 bg-gray-50 border-t border-gray-100 flex items-center justify-between">
                 <p className="text-lg font-bold text-gray-900">{tour.price_range}</p>
-                <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition shadow-sm">View Details</button>
+                {/* THIS IS THE NEW BUTTON */}
+                <BookButton pk={tour.pk} />
               </div>
             </article>
           ))}
