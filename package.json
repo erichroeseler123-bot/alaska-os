@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@google/genai": "^1.30.0",
     "@google/generative-ai": "^0.24.1",
     "@upstash/redis": "^1.35.6",
     "@vercel/speed-insights": "^1.2.0",
