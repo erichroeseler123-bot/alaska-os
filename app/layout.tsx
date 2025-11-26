@@ -4,7 +4,7 @@ import type { ReactNode } from "react";
 
 export const metadata = {
   title: "Alaska OS — Live Port Intelligence",
-  description: "Real-time excursion and cruise-port intelligence system for Alaska.",
+  description: "Real-time port intelligence for Alaska cruise ports.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
@@ -18,6 +18,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           color: "white",
           fontFamily: "system-ui, sans-serif",
           minHeight: "100vh",
+          width: "100vw",
+          overflowX: "hidden",
+          display: "flex",
+          flexDirection: "column",
         }}
       >
         {children}
