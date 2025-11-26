@@ -2,45 +2,61 @@
 import { redis } from "@/lib/redis";
 
 export default async function HomePage() {
-  let homepage = null;
+  let homepage: any = null;
 
   try {
     const raw = await redis.get("homepage");
-    homepage = raw ? JSON.parse(raw) : null;
+
+    // Handle both strings AND objects safely
+    if (typeof raw === "string") {
+      homepage = JSON.parse(raw);
+    } else if (typeof raw === "object" && raw !== null) {
+      homepage = raw; // Already parsed by Upstash
+    }
   } catch (err) {
-    console.error("Redis error:", err);
+    console.error("Redis parse error:", err);
   }
 
   if (!homepage) {
     return (
-      <main style={{ background:"#00111c", color:"white", height:"100vh",
-        display:"flex", flexDirection:"column", justifyContent:"center",
-        alignItems:"center" }}>
+      <div
+        style={{
+          backgroundColor: "#02131d",
+          color: "white",
+          height: "100vh",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center"
+        }}
+      >
         <h1>Alaska OS — Live Port Intelligence</h1>
-        <p>No homepage data found.</p>
-        <p>Visit <code>/api/generate</code> to create the data.</p>
-      </main>
+        <p>Homepage data not generated yet.</p>
+        <p>Visit <code>/api/generate</code> to build the data.</p>
+      </div>
     );
   }
 
   return (
-    <main style={{ background:"#00111c", color:"white", minHeight:"100vh", padding:"40px" }}>
-      <h1 style={{ fontSize:"40px", textAlign:"center", color:"#9fe1ff" }}>
-        Alaska OS — Live Port Intelligence
-      </h1>
+    <div style={{
+      backgroundColor: "#02131d",
+      color: "white",
+      minHeight: "100vh",
+      padding: "40px"
+    }}>
+      <h1>Alaska OS — Live Port Intelligence</h1>
 
-      <div style={{ marginTop:"50px", background:"#002332", padding:"30px",
-        borderRadius:"12px", border:"1px solid #004455" }}>
-        <h2 style={{ fontSize:"26px", color:"#7cd3ff" }}>Homepage Loaded</h2>
+      <h2 style={{ marginTop: "40px" }}>Homepage Loaded</h2>
 
-        <p style={{ marginTop:"10px", opacity:0.9 }}>
-          <strong>Generated At:</strong> {new Date(homepage.generatedAt).toLocaleString()}
-        </p>
-
-        <p style={{ marginTop:"10px", opacity:0.9 }}>
-          <strong>Status:</strong> {homepage.message}
-        </p>
-      </div>
-    </main>
+      <pre style={{
+        background: "#002332",
+        padding: "20px",
+        borderRadius: "12px",
+        whiteSpace: "pre-wrap",
+        overflowX: "auto"
+      }}>
+        {JSON.stringify(homepage, null, 2)}
+      </pre>
+    </div>
   );
 }
