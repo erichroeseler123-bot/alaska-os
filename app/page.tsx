@@ -2,8 +2,7 @@
 import { redis } from "@/lib/redis";
 
 export default async function HomePage() {
-  // Load homepage data directly from Redis
-  let homepage = null;
+  let homepage: any = null;
 
   try {
     const raw = await redis.get("homepage");
@@ -14,77 +13,84 @@ export default async function HomePage() {
     console.error("Redis error:", err);
   }
 
-  // Show "not generated" screen
-  if (!homepage) {
-    return (
-      <main style={{
-        fontFamily: "system-ui, sans-serif",
-        background: "#00111c",
+  return (
+    <main
+      style={{
+        backgroundColor: "#02131d",
+        color: "white",
         minHeight: "100vh",
         padding: "40px 20px",
-        color: "white",
-        textAlign: "center"
-      }}>
-        <h1 style={{ color: "#7cd3ff", fontSize: "42px", fontWeight: "800" }}>
-          Alaska OS — Live Port Intelligence
-        </h1>
-
-        <p style={{ marginTop: "40px", fontSize: "20px" }}>
-          Homepage data not generated yet.
-        </p>
-        <p>Visit <code>/api/generate</code> to build the data.</p>
-      </main>
-    );
-  }
-
-  // Homepage loaded
-  return (
-    <main style={{
-      fontFamily: "system-ui, sans-serif",
-      background: "#00111c",
-      minHeight: "100vh",
-      padding: "40px 20px",
-      color: "white",
-      maxWidth: "900px",
-      margin: "0 auto"
-    }}>
-      
-      <h1 style={{
-        fontSize: "42px",
-        fontWeight: "800",
-        textAlign: "center",
-        marginBottom: "40px",
-        color: "#7cd3ff"
-      }}>
+        fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, sans-serif",
+        maxWidth: "900px",
+        margin: "0 auto",
+      }}
+    >
+      <h1
+        style={{
+          fontSize: "36px",
+          fontWeight: 800,
+          textAlign: "center",
+          marginBottom: "24px",
+          color: "#7cd3ff",
+        }}
+      >
         Alaska OS — Live Port Intelligence
       </h1>
 
-      <h2 style={{ opacity: 0.8, marginBottom: "30px" }}>
-        Generated At: {homepage.lastUpdatedUTC}
-      </h2>
+      {!homepage ? (
+        <div
+          style={{
+            marginTop: "60px",
+            textAlign: "center",
+            fontSize: "18px",
+            opacity: 0.9,
+          }}
+        >
+          <p>Homepage data not generated yet.</p>
+          <p>
+            Visit <code>/api/generate</code> once, then refresh this page.
+          </p>
+        </div>
+      ) : (
+        <>
+          <p style={{ opacity: 0.8, marginTop: "8px" }}>
+            {homepage.message}
+          </p>
 
-      <div style={{ marginTop: "20px" }}>
-        {homepage.ports.map((p: any) => (
-          <a
-            key={p.slug}
-            href={`/port/${p.slug}`}
+          <p style={{ marginTop: "16px", fontSize: "14px", opacity: 0.7 }}>
+            Generated at:{" "}
+            {new Date(homepage.generatedAt).toLocaleString("en-US", {
+              timeZone: "UTC",
+            })}{" "}
+            (UTC)
+          </p>
+
+          <section
             style={{
-              display: "block",
-              background: "#002332",
-              borderRadius: "12px",
+              marginTop: "32px",
               padding: "20px",
-              marginBottom: "16px",
-              textDecoration: "none",
+              borderRadius: "12px",
+              background: "#002332",
               border: "1px solid #004455",
-              color: "white"
             }}
           >
-            <h3 style={{ color: "#9fe1ff", fontSize: "24px" }}>{p.name}</h3>
-            <p style={{ opacity: 0.8 }}>{p.summary}</p>
-          </a>
-        ))}
-      </div>
-
+            <h2 style={{ fontSize: "20px", marginBottom: "12px" }}>
+              Raw homepage data
+            </h2>
+            <pre
+              style={{
+                fontSize: "13px",
+                backgroundColor: "#000814",
+                padding: "16px",
+                borderRadius: "8px",
+                overflowX: "auto",
+              }}
+            >
+              {JSON.stringify(homepage, null, 2)}
+            </pre>
+          </section>
+        </>
+      )}
     </main>
   );
 }
