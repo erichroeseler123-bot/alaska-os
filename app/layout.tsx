@@ -1,38 +1,25 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+// app/layout.tsx
 import "./globals.css";
-import Script from "next/script"; // <--- 1. Import Script component
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-// 2. Update Metadata for your site identity
-export const metadata: Metadata = {
-  title: "Alaska OS",
-  description: "Live Port Intelligence",
+export const metadata = {
+  title: "Alaska OS — Live Port Intelligence",
+  description: "Real-time port conditions, weather, webcams, excursion intel, and more.",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        style={{
+          background: "#00111c",
+          color: "white",
+          fontFamily: "system-ui, sans-serif",
+          margin: 0,
+          padding: 0,
+          minHeight: "100vh",
+        }}
       >
         {children}
-        
-        {/* 3. Inject FareHarbor API Global Script */}
-        <Script src="https://fareharbor.com/embeds/api/v1/" strategy="lazyOnload" />
       </body>
     </html>
   );
