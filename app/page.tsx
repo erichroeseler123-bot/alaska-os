@@ -2,70 +2,76 @@
 import { redis } from "@/lib/redis";
 
 export default async function HomePage() {
-  // Load from Redis
-  let homepage = null;
+  // Load homepage data from Redis
+  let homepage: any = null;
 
   try {
     const raw = await redis.get("homepage");
-    if (raw) {
-      homepage = typeof raw === "string" ? JSON.parse(raw) : raw;
-    }
+    if (raw) homepage = typeof raw === "string" ? JSON.parse(raw) : raw;
   } catch (err) {
     console.error("Redis error:", err);
   }
 
+  // If no homepage data exists
   if (!homepage) {
     return (
       <main style={{
         background: "#00111c",
-        minHeight: "100vh",
         color: "white",
-        padding: "60px 20px",
-        textAlign: "center"
+        minHeight: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center"
       }}>
-        <h1 style={{ color: "#7cd3ff", fontSize: "42px" }}>
-          Alaska OS — Live Port Intelligence
-        </h1>
-        <p style={{ marginTop: "20px" }}>Homepage data not generated yet.</p>
+        <h1>Alaska OS — Live Port Intelligence</h1>
+        <p>Homepage data not generated yet.</p>
         <p>Visit <code>/api/generate</code> to build the data.</p>
       </main>
     );
   }
 
+  // Homepage exists — display it
   return (
     <main style={{
       background: "#00111c",
+      padding: "40px 20px",
       minHeight: "100vh",
       color: "white",
-      padding: "40px 20px",
       maxWidth: "900px",
       margin: "0 auto"
     }}>
-      
-      <h1 style={{ color: "#7cd3ff", fontSize: "42px", textAlign: "center" }}>
+      <h1 style={{
+        fontSize: "42px",
+        fontWeight: "800",
+        textAlign: "center",
+        marginBottom: "40px",
+        color: "#7cd3ff"
+      }}>
         Alaska OS — Live Port Intelligence
       </h1>
 
-      <p style={{ opacity: 0.8, marginTop: "10px" }}>
-        Generated at: {homepage.lastUpdatedUTC}
-      </p>
+      <h2 style={{ fontSize: "16px", opacity: 0.8 }}>
+        Generated At: {homepage.lastUpdatedUTC}
+      </h2>
 
       <div style={{ marginTop: "40px" }}>
-        {homepage.ports.map((p: any) => (
+        {homepage.ports?.map((p: any) => (
           <a
             key={p.slug}
             href={`/port/${p.slug}`}
             style={{
               display: "block",
-              marginBottom: "20px",
               padding: "20px",
-              background: "#002332",
               borderRadius: "12px",
+              marginBottom: "16px",
+              textDecoration: "none",
+              background: "#002332",
               border: "1px solid #004455",
-              textDecoration: "none"
+              transition: "0.2s"
             }}
           >
-            <h3 style={{ color: "#9fe1ff", fontSize: "24px" }}>{p.name}</h3>
+            <h3 style={{ fontSize: "24px", color: "#9fe1ff" }}>{p.name}</h3>
             <p style={{ opacity: 0.8 }}>{p.summary}</p>
           </a>
         ))}
