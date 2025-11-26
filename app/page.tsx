@@ -2,8 +2,7 @@
 import { redis } from "@/lib/redis";
 
 export default async function HomePage() {
-  // Load homepage data from Redis
-  let homepage: any = null;
+  let homepage = null;
 
   try {
     const raw = await redis.get("homepage");
@@ -12,13 +11,12 @@ export default async function HomePage() {
     console.error("Redis error:", err);
   }
 
-  // If no homepage data exists
   if (!homepage) {
     return (
-      <main style={{
-        background: "#00111c",
+      <div style={{
+        backgroundColor: "#02131d",
         color: "white",
-        minHeight: "100vh",
+        height: "100vh",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
@@ -27,13 +25,14 @@ export default async function HomePage() {
         <h1>Alaska OS — Live Port Intelligence</h1>
         <p>Homepage data not generated yet.</p>
         <p>Visit <code>/api/generate</code> to build the data.</p>
-      </main>
+      </div>
     );
   }
 
-  // Homepage exists — display it
+  // Homepage exists — RENDER the ports!
   return (
     <main style={{
+      fontFamily: "system-ui, sans-serif",
       background: "#00111c",
       padding: "40px 20px",
       minHeight: "100vh",
@@ -41,6 +40,7 @@ export default async function HomePage() {
       maxWidth: "900px",
       margin: "0 auto"
     }}>
+      
       <h1 style={{
         fontSize: "42px",
         fontWeight: "800",
@@ -51,12 +51,12 @@ export default async function HomePage() {
         Alaska OS — Live Port Intelligence
       </h1>
 
-      <h2 style={{ fontSize: "16px", opacity: 0.8 }}>
-        Generated At: {homepage.lastUpdatedUTC}
+      <h2 style={{ fontSize: "18px", opacity: 0.7 }}>
+        Last Updated: {homepage.lastUpdatedUTC}
       </h2>
 
-      <div style={{ marginTop: "40px" }}>
-        {homepage.ports?.map((p: any) => (
+      <div style={{ marginTop: "30px" }}>
+        {homepage.ports.map((p: any) => (
           <a
             key={p.slug}
             href={`/port/${p.slug}`}
@@ -68,7 +68,6 @@ export default async function HomePage() {
               textDecoration: "none",
               background: "#002332",
               border: "1px solid #004455",
-              transition: "0.2s"
             }}
           >
             <h3 style={{ fontSize: "24px", color: "#9fe1ff" }}>{p.name}</h3>
@@ -76,6 +75,7 @@ export default async function HomePage() {
           </a>
         ))}
       </div>
+
     </main>
   );
 }
